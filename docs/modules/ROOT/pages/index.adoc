@@ -1,9 +1,6 @@
 = OpenAPI Spring WebFlux Sample
 :page-layout: default
-:oap-spring: https://hauner.github.io/openapi-processor-spring
-:oap-spring-webflux-sample: https://hauner.github.io/openapi-processor-spring-webflux-sample
-:oap-json: https://hauner.github.io/openapi-processor-json
-:oap-gradle: https://github.com/hauner/openapi-processor-gradle
+:oap-github: https://github.com/hauner/openapi-processor-spring-webflux-sample
 
 //
 // content
@@ -11,17 +8,17 @@
 
 This is a simple Spring Boot (gradle) project that is using
 
-* xref:spring:ROOT:index.adoc[openapi-processor-spring] to
+* xref:spring::index.adoc[openapi-processor-spring] to
 generate java interfaces for the api defined in an openapi.yaml file
-* link:{oap-json}[openapi-processor-json] to convert the openapi yaml to json format
-* link:{oap-gradle}[openapi-processor-gradle] plugin to run both processors
+* xref:json::index.adoc[openapi-processor-json] to convert the openapi yaml to json format
+* xref:gradle::index.adoc[openapi-processor-gradle] plugin to run both processors
 
 The purpose of the sample is to show the setup of the gradle plugin, and the processors for an
 **annotation** based Spring WebFlux application.
 
 == Running the sample
 
-Clone the project from link:{oap-spring-webflux-sample}[GitHub], navigate into the project root
+Clone the project from link:{oap-github}[GitHub], navigate into the project root
 folder and run
 
 ----
