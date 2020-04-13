@@ -9,25 +9,12 @@ generate java interfaces for the api defined in an openapi.yaml file
 The purpose of the sample is to show the setup of the gradle plugin, and the processors for an
 **annotation** based Spring WebFlux application.
 
-## Endpoints
+# Documentation 
 
-the sample has a few simple endpoints described with OpenAPI in `src/api`. 
-
-
-### get all books
-
-    curl http://localhost:8080/books
-  
-### get single book
-
-    curl http://localhost:8080/books/1
-
-### post new books
-
-    curl --header "Content-Type: application/json" --data '[{"title":"Test Driven Development","authors":["Kent Beck"]}, {"title":"Growing Object-Oriented Software","authors":["Steve Freeman", "Nat Pryce"]}]' http://localhost:8080/books
+See [here][oap-docs].
 
 
-[oap-spring]: https://hauner.github.io/openapi-processor-spring/
-[oap-json]: https://hauner.github.io/openapi-processor-json/
-[oap-gradle]: https://github.com/hauner/openapi-processor-gradle
-
+[oap-docs]: https://hauner.github.com/openapi-processor/spring-webflux-sample/index.html
+[oap-spring]: https://hauner.github.com/openapi-processor/spring/current/index.html
+[oap-json]: https://hauner.github.com/openapi-processor/json/current/index.html
+[oap-gradle]: https://hauner.github.com/openapi-processor/gradle/current/index.html
