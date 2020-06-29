@@ -1,6 +1,5 @@
 = OpenAPI Spring WebFlux Sample
-:page-layout: default
-:oap-github: https://github.com/hauner/openapi-processor-spring-webflux-sample
+:oap-github: https://github.com/openapi-processor/openapi-processor-spring-webflux-sample
 
 //
 // content
